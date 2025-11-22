@@ -16,7 +16,6 @@ def main():
     outputfile = sys.argv[3]
     pieces = pattern[1:].split("?")
     Wordlist = [[]]
-    print("Test")
     for carg in pieces:
         match carg:
             case "d":
